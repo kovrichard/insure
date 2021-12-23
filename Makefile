@@ -1,4 +1,4 @@
-.PHONY: build start stop restart sh logs compile deploy tsh tests addresses
+.PHONY: build start stop restart sh logs compile deploy tsh tests addresses lint
 
 container=insurance
 
@@ -43,3 +43,6 @@ test:
 
 addresses:
 	docker compose exec $(container) truffle exec addresses.js
+
+lint:
+	docker compose exec ${container} npm run lint

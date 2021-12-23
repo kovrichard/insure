@@ -4,10 +4,11 @@
   "description": "Insurance",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "tests"
   },
   "scripts": {
-    "test": "truffle test"
+    "test": "truffle test",
+    "lint": "./node_modules/.bin/solhint -f table contracts/**/*.sol"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/kovrichard/insurance#readme",
   "devDependencies": {
     "lodash": "^4.17.21",
+    "solhint": "^3.3.6",
     "truffle": "^5.3.4",
     "truffle-assertions": "^0.9.2"
   }
