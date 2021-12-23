@@ -1,0 +1,8 @@
+version: "3"
+services:
+  insurance:
+    build: ./
+    image: insurance
+    working_dir: /usr/src/app/insurance
+    volumes:
+      - ./:/usr/src/app/insurance

@@ -1,0 +1,27 @@
+{
+  "name": "insurance",
+  "version": "1.0.0",
+  "description": "Insurance",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kovrichard/insurance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kovrichard/insurance/issues"
+  },
+  "homepage": "https://github.com/kovrichard/insurance#readme",
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "truffle": "^5.3.4",
+    "truffle-assertions": "^0.9.2"
+  }
+}
