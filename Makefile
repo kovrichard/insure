@@ -46,6 +46,4 @@ addresses:
 
 lint:
 	docker compose exec ${container} npm run lint
-
-lint2:
-	docker compose exec ${container} npm run lint2
+	docker compose exec ${container} npm run check
