@@ -47,3 +47,5 @@ addresses:
 lint:
 	docker compose exec ${container} npm run lint
 	docker compose exec ${container} npm run check
+	docker compose exec ${container} npm run lintjs
+	docker compose exec ${container} npm run checkjs
