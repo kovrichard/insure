@@ -48,8 +48,11 @@ jobs:
     - name: Update packages to latest version
       run: npm update
     
-    - name: Check style
+    - name: Check Solidity style
       run: npm run check
+    
+    - name: Check JS style
+      run: npm run checkjs
 
     - name: Run tests
       run: npm test
