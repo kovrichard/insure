@@ -11,7 +11,7 @@
     "lint": "./node_modules/.bin/prettier --write contracts/**/*.sol",
     "check": "./node_modules/.bin/solhint contracts/**/*.sol",
     "lintjs": "./node_modules/.bin/eslint --fix migrations/**/*.js tests/**/*.js",
-    "checkjs": "./node_modules/.bin/eslint migrations/**/*.js tests/**/*.js"
+    "checkjs": "./node_modules/.bin/eslint --no-error-on-unmatched-pattern migrations/**/*.js tests/**/*.js"
   },
   "repository": {
     "type": "git",
