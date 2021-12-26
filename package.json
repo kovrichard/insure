@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kovrichard/insurance.git"
+    "url": "git+https://github.com/kovrichard/insure.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kovrichard/insurance/issues"
+    "url": "https://github.com/kovrichard/insure/issues"
   },
-  "homepage": "https://github.com/kovrichard/insurance#readme",
+  "homepage": "https://github.com/kovrichard/insure#readme",
   "devDependencies": {
     "lodash": "^4.17.21",
     "prettier": "^2.5.1",

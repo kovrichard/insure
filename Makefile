@@ -1,4 +1,14 @@
-.PHONY: build start stop restart sh logs compile deploy tsh tests addresses lint
+.PHONY: build start stop restart sh logs compile deploy tsh test addresses lint
+
+# \
+!ifndef 0 # \
+delete=rmdir /Q /S # \
+cwd=%cd% \
+!else 
+delete=rm -rf
+cwd=$$(pwd)
+# \
+!endif
 
 container=insurance
 
